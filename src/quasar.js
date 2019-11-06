@@ -13,6 +13,9 @@ import {
   QSelect,
   QInput,
   QSeparator,
+  QForm,
+  QToggle,
+  Notify,
 
   QLayout,
   QHeader,
@@ -30,14 +33,16 @@ import {
 } from 'quasar'
 
 Vue.use(Quasar, {
-  config: {},
   components: {
     QCard,
     QCardSection,
     QCardActions,
-    QSeparator,
     QSelect,
     QInput,
+    QSeparator,
+    QForm,
+    QToggle,
+
     QLayout,
     QHeader,
     QDrawer,
@@ -55,6 +60,10 @@ Vue.use(Quasar, {
   directives: {
   },
   plugins: {
+    Notify
+  },
+  config: {
+    notify: { /* Notify defaults */ }
   },
   lang: lang
 })
