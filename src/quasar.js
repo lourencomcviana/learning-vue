@@ -7,6 +7,13 @@ import '@quasar/extras/material-icons/material-icons.css'
 import '@quasar/extras/fontawesome-v5/fontawesome-v5.css'
 import {
   Quasar,
+  QCard,
+  QCardSection,
+  QCardActions,
+  QSelect,
+  QInput,
+  QSeparator,
+
   QLayout,
   QHeader,
   QDrawer,
@@ -25,6 +32,12 @@ import {
 Vue.use(Quasar, {
   config: {},
   components: {
+    QCard,
+    QCardSection,
+    QCardActions,
+    QSeparator,
+    QSelect,
+    QInput,
     QLayout,
     QHeader,
     QDrawer,
