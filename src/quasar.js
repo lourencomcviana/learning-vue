@@ -16,7 +16,7 @@ import {
   QForm,
   QToggle,
   Notify,
-
+  QTable,
   QLayout,
   QHeader,
   QDrawer,
@@ -42,7 +42,7 @@ Vue.use(Quasar, {
     QSeparator,
     QForm,
     QToggle,
-
+    QTable,
     QLayout,
     QHeader,
     QDrawer,
